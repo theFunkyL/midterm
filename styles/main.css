@@ -1,0 +1,48 @@
+body{
+	background-color: #777;
+	background-image: url('../images/theater.jpg');
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+
+}
+.button {
+	height: 25px;
+	overflow: hidden;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	cursor: pointer;
+}
+#wordContainer{
+	height: 315px;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21px;
+	margin-bottom: 15px;
+	font-size: 10px;
+	overflow: auto;
+}
+.open {
+	height: 315px;
+	padding: 75px;
+}
+#title{
+	color: white;
+	display: inline;
+}
+#container{
+	text-align: center;
+	margin-top: 38px;
+}
+#searchResults{
+	width: 500px;
+	height: 25px;
+}
+#getButton{
+	height: 30px;
+}
+.openContainer{
+	overflow: hidden;
+}
