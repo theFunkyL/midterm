@@ -22,10 +22,22 @@ $('#getButton').click(function(){
 		}
 
 		$('.button').click(function(){
-			$(this).toggleClass('open');
-			$('.wordContainer').toggleClass('openContainer');
-			// $('.description').css('display','inline-block');
+			$('#modalH1').html('');
+			$('#modal').css('margin-top', '0px');
+			$('#modalH1').attr('class','open');
+			$('#modalH1').append($(this).html());
+			
+			console.log(this);
+		});
+
+		$('#close').click(function(){
+			$('#modal').css('margin-top', '-315px');
 		});
 	});
 });
 	
+			// $('.wordContainer').empty();
+			// $(this).toggleClass('open');
+			// $('.wordContainer').toggleClass('openContainer');
+			// $('.wordContainer').css('display', 'none');
+			// $('.description').css('display','inline-block');
